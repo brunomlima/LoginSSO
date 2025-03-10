@@ -1,0 +1,27 @@
+# .gitignore para o Frontend Angular
+
+# Diretórios do Angular e Node.js
+dist/
+node_modules/
+
+# Cache e logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Configurações do usuário
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Configurações específicas do Angular
+.angular/cache/
+.angular/config.json
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
