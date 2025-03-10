@@ -1,0 +1,35 @@
+# .gitignore para a API .NET
+
+# Diretórios do .NET
+bin/
+obj/
+
+# Configurações do usuário
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs e dumps
+logs/
+*.log
+*.nlog
+*.out
+*.err
+*.trace
+
+# Configurações sensíveis
+secrets.json
+appsettings.Development.json
+appsettings.Staging.json
+appsettings.Production.json
+
+# Cache e dependências
+.vscode/
+node_modules/
+wwwroot/
+Properties/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
