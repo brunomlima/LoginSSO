@@ -9,7 +9,7 @@ using System.Security.Claims;
 [Route("auth")]
 public class AuthController : ControllerBase
 {
-    [HttpGet("{provider}")]
+[HttpGet("{provider}")]
 public IActionResult Login(string provider)
 {
     if (provider.ToLower() == "google") provider = "Google";
